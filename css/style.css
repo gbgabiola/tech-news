@@ -127,6 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .l-heading { font-size: 3rem; }
 
+.select { color: var(--primary-color); }
+
 .list li {
   width: 90%;
   padding: .5rem 0;
@@ -152,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 0;
   z-index: 2;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 #main-nav .container {
@@ -181,7 +183,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* #main-nav ul li a:hover :not(.current), */
 #main-nav ul li a:not(.current):hover {
   background: var(--light-color);
   color: var(--dark-color);
@@ -287,5 +288,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-footer .footer-container input[type='submit'] {
   width: 90%;
+  cursor: pointer;
 }
 

@@ -14,7 +14,7 @@
 <body>
   <nav id="main-nav">
     <div class="container">
-      <img src="img/logo.png" alt="TechNews" class="logo">
+      <a href="index.html"><img src="img/logo.png" alt="TechNews" class="logo"></a>
       <div class="social">
         <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
@@ -51,14 +51,14 @@
   <footer id="main-footer" class="py-2">
     <div class="container footer-container">
       <div>
-        <img src="img/logo-light.png" alt="TechNews">
+        <a href="index.html"><img src="img/logo-light.png" alt="TechNews"></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nulla nisi suscipit quas dolore pariatur aspernatur sint modi quia velit.</p>
       </div>
       <div>
         <h3>Email Newsletter</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <form>
-          <input type="email" placeholder="Enter Email...">
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="email" name="email" placeholder="Enter Email...">
           <input type="submit" value="Subscribe" class="btn btn-primary">
         </form>
       </div>
@@ -80,7 +80,7 @@
       </div>
 
       <div>
-        <p>Copyright &copy; 2019. All Rights Reserved.</p>
+        <p>Copyright &copy; 2019, <a href="index.html">Tech<span class="select">News</span></a>. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
